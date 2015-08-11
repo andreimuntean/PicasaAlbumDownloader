@@ -13,8 +13,8 @@ IMG_EXTENSIONS = ('.gif', '.jpg', '.png')
 
 
 def get_input_destination():
-    if len(sys.argv) == 3:
-        return sys.argv[2]
+    if len(sys.argv) == 2:
+        return sys.argv[1]
     else:
         print('Where would you like to download the images?')
     
